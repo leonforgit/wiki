@@ -4,6 +4,12 @@
 > 
 > 最后更新: 2026-04-07 | 总页面数: 0
 
+## 🕸️ Knowledge Graph
+
+探索知识之间的关联：
+- **[🌐 Interactive Graph](graph.html)** — 可交互的知识图谱可视化
+- **[📊 Graph Data](graph.json)** — 图谱原始数据 (JSON)
+
 ## 快速导航
 - [SCHEMA.md](SCHEMA.md) - 知识库规范
 - [log.md](log.md) - 操作日志

@@ -79,3 +79,32 @@ When new information conflicts with existing content:
 2. If genuinely contradictory, note both positions with dates and sources
 3. Mark the contradiction in frontmatter: `contradictions: [page-name]`
 4. Flag for user review in the lint report
+
+---
+
+## Knowledge Graph
+
+Wiki 自动生成知识图谱可视化：
+
+- **Graph 页面**: `graph.html` — 交互式 D3.js 网络图
+- **数据源**: `graph.json` — 节点和边的结构化数据
+- **更新方式**: 每次推送到 main 分支时自动重新生成
+
+### Graph 功能
+- 🔍 **搜索**: 按标题、标签搜索页面
+- 🎨 **颜色编码**: 不同类型页面用不同颜色区分
+  - 🔵 Entity (实体)
+  - 🟢 Concept (概念)
+  - 🟠 Comparison (对比)
+  - 🟣 Query/Summary (查询/总结)
+  - ⚪ Note (笔记)
+- 🔗 **链接导航**: 点击节点跳转到对应页面
+- 🖱️ **交互**: 拖拽、缩放、平移
+
+### 添加链接
+使用 `[[wikilink]]` 格式创建页面间的关联：
+```markdown
+See also: [[related-page]] and [[another-page|显示文字]]
+```
+
+链接会自动被解析并显示在知识图谱中。

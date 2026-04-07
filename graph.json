@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "SCHEMA",
+      "title": "Schema",
+      "type": "note",
+      "tags": [],
+      "path": "SCHEMA.md"
+    },
+    {
+      "id": "log",
+      "title": "Log",
+      "type": "note",
+      "tags": [],
+      "path": "log.md"
+    },
+    {
+      "id": "index",
+      "title": "Index",
+      "type": "note",
+      "tags": [],
+      "path": "index.md"
+    },
+    {
+      "id": "README",
+      "title": "Readme",
+      "type": "note",
+      "tags": [],
+      "path": "README.md"
+    },
+    {
+      "id": "concepts/aero-engine-industry",
+      "title": "航空发动机行业深度分析",
+      "type": "concept",
+      "tags": [
+        "finance",
+        "industry",
+        "tech",
+        "china",
+        "manufacturing"
+      ],
+      "path": "concepts/aero-engine-industry.md"
+    },
+    {
+      "id": "concepts/ray-dalio-hormuz-analysis",
+      "title": "Ray Dalio 关于霍尔木兹海峡危机的分析",
+      "type": "concept",
+      "tags": [
+        "finance",
+        "news",
+        "person",
+        "opinion",
+        "geopolitics"
+      ],
+      "path": "concepts/ray-dalio-hormuz-analysis.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "SCHEMA",
+      "target": "wikilinks",
+      "type": "links_to"
+    },
+    {
+      "source": "SCHEMA",
+      "target": "wikilinks",
+      "type": "links_to"
+    },
+    {
+      "source": "SCHEMA",
+      "target": "wikilinks",
+      "type": "links_to"
+    },
+    {
+      "source": "SCHEMA",
+      "target": "wikilink",
+      "type": "links_to"
+    },
+    {
+      "source": "SCHEMA",
+      "target": "related-page",
+      "type": "links_to"
+    },
+    {
+      "source": "SCHEMA",
+      "target": "another-page",
+      "type": "links_to"
+    },
+    {
+      "source": "index",
+      "target": "aero-engine-industry",
+      "type": "links_to"
+    },
+    {
+      "source": "index",
+      "target": "ray-dalio-hormuz-analysis",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/aero-engine-industry",
+      "target": "C919",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/aero-engine-industry",
+      "target": "C929",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/aero-engine-industry",
+      "target": "中国航发",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/aero-engine-industry",
+      "target": "航发动力",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/aero-engine-industry",
+      "target": "两机专项",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/aero-engine-industry",
+      "target": "适航取证",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/ray-dalio-hormuz-analysis",
+      "target": "石油美元体系",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/ray-dalio-hormuz-analysis",
+      "target": "储备货币",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/ray-dalio-hormuz-analysis",
+      "target": "地缘政治风险",
+      "type": "links_to"
+    },
+    {
+      "source": "concepts/ray-dalio-hormuz-analysis",
+      "target": "桥水基金",
+      "type": "links_to"
+    }
+  ],
+  "tag_groups": {
+    "finance": [
+      "concepts/aero-engine-industry",
+      "concepts/ray-dalio-hormuz-analysis"
+    ],
+    "industry": [
+      "concepts/aero-engine-industry"
+    ],
+    "tech": [
+      "concepts/aero-engine-industry"
+    ],
+    "china": [
+      "concepts/aero-engine-industry"
+    ],
+    "manufacturing": [
+      "concepts/aero-engine-industry"
+    ],
+    "news": [
+      "concepts/ray-dalio-hormuz-analysis"
+    ],
+    "person": [
+      "concepts/ray-dalio-hormuz-analysis"
+    ],
+    "opinion": [
+      "concepts/ray-dalio-hormuz-analysis"
+    ],
+    "geopolitics": [
+      "concepts/ray-dalio-hormuz-analysis"
+    ]
+  },
+  "stats": {
+    "total_pages": 6,
+    "total_links": 18,
+    "total_tags": 9
+  }
+}
