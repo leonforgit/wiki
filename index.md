@@ -18,6 +18,7 @@
 ## Concepts (概念)
 <!-- 按字母顺序排列 -->
 
+- [[aero-engine-industry]] — 航空发动机行业深度分析（市场格局、技术壁垒与国产替代）
 - [[ray-dalio-hormuz-analysis]] — Ray Dalio 关于霍尔木兹海峡危机的地缘政治分析
 
 ## Comparisons (对比)

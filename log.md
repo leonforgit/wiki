@@ -16,3 +16,11 @@
 - Summary: Ray Dalio 警告美以伊战争是更大规模世界大战的一部分，霍尔木兹海峡控制权将决定美国是否输掉战争，可能引发美元储备货币地位崩溃
 - Created: concepts/ray-dalio-hormuz-analysis.md
 - Updated: index.md
+
+## [2025-04-07] create | 航空发动机行业分析
+- Source: https://mp.weixin.qq.com/s/I3fu6NBBMQWknB8ANt6KhA
+- Type: concept
+- Tags: finance, industry, tech, china, manufacturing
+- Summary: 航空发动机行业深度梳理，涵盖全球寡头格局、核心技术指标、国产CJ1000系列进展、航发动力公司分析
+- Created: concepts/aero-engine-industry.md
+- Updated: index.md
