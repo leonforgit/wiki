@@ -24,3 +24,10 @@
 - Summary: 航空发动机行业深度梳理，涵盖全球寡头格局、核心技术指标、国产CJ1000系列进展、航发动力公司分析
 - Created: concepts/aero-engine-industry.md
 - Updated: index.md
+
+## [2025-04-07] feature | Knowledge Graph Visualization
+- Added interactive knowledge graph with D3.js
+- Features: search, zoom, pan, color-coded nodes by type
+- Auto-generates on every push via GitHub Actions
+- Created: .github/scripts/generate_graph.py, graph.html, graph.json
+- Updated: index.md, SCHEMA.md, .github/workflows/pages.yml
