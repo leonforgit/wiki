@@ -18,7 +18,7 @@
 ## Concepts (概念)
 <!-- 按字母顺序排列 -->
 
-*暂无内容*
+- [[ray-dalio-hormuz-analysis]] — Ray Dalio 关于霍尔木兹海峡危机的地缘政治分析
 
 ## Comparisons (对比)
 <!-- 按字母顺序排列 -->
