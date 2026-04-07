@@ -1,0 +1,29 @@
+title: "Leon's Wiki"
+description: "综合知识库 - AI、技术、金融、新闻、学习笔记"
+baseurl: "/wiki"
+url: "https://leon401999-ops.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - .github/
+  - README.md
+  - LICENSE
+  - _archive/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
